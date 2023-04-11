@@ -57,6 +57,7 @@ public class BalancedBracketsTest {
     public void returnsFalseWrongOrderBracketsMultiple(){
         assertFalse(BalancedBrackets.hasBalancedBrackets("[[]]]["));
     }
+
     @Test
     public void returnsTrueStringWithNoBrackets(){
         assertTrue(BalancedBrackets.hasBalancedBrackets("Launchcode"));
